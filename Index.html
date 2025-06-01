@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap StyleSheet -->
+    <link rel="stylesheet" href="bootstrap-5.1.3/css/bootstrap.min.css">
+    <!-- Bootstrap Js -->
+    <script src="bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Googel Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="Style.css">
+    <!-- Font Awesome Links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMt23cez/3paNdF+e4x5l5d1z5a7b2c5d1j6k" crossorigin="anonymous">
+    <title>Work-Out Blog</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="logo col-lg-8 col-md col-sm">
+                    <a class="navbar-brand fs-3 text-white" href="#">WorkOut &nbsp; Blog</a>
+                </div>
+                <button class="navbar-toggler text-white " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup">
+                    <span class="bi bi-list"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <div class="dropdown nav-link">
+                            <button class="dropdown-toggle DropBtn" type="button" id="dropdownMenuButton"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Exercise
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="#Push">
+                                        Push Exercise
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="#Pull">
+                                        Pull Exercise
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#Leg">
+                                        Leg Exercise
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <a class="nav-link" href="#About">About US</a>
+                        <a class="nav-link" href="#Contact">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- Carousel Slider  -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade border-bottom" data-bs-ride="carousel"
+            id="home">
+            <div class="carousel-inner parent-carousel">
+                <div class="carousel-item carousel-image-box active">
+                    <img src="Images/Sldr1.webp" class="d-block Carousel-image" alt="...">
+                </div>
+                <div class="carousel-item carousel-image-box">
+                    <img src="Images/sldr2.webp" class="d-block Carousel-image " alt="...">
+                </div>
+                <div class="carousel-item carousel-image-box">
+                    <img src="Images/sldr3.webp" class="d-block Carousel-image " alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Main Content Start -->
+        <div class="container-fluid parent">
+            <div class="row">
+                <div class="accordion my-5 pb-5" id="accordionExample">
+                    <div class="container" id="Push">
+
+                    </div>
+                    <!-- Monday -->
+                    <div class="accordion-item mt-5 border border-top ">
+                        <h2 class="accordion-header border border-bottom border" id="headingOne">
+                            <button class="accordion-button fs-2" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Monday & Thursday / Push Exercise
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+
+                            <div class="accordion-body">
+                                <div class="col-lg-10 body-box m-auto my-3 border border-light p-4">
+                                    <div class="row">
+                                        <div class="title-name text-center border-bottom m-auto my-5 w-25">
+                                            <h2>Pushups</h2>
+                                        </div>
+                                        <div class="card-box">
+                                            <div class="Exercise-Image ">
+                                                <img src="Images/Pushup-sigma.jfif" alt="">
+                                            </div>
+                                            <div class="Exercise-details">
+                                                <ul class="fs-4">
+                                                    <li>
+                                                        <p>Reps = 15 / # Sets</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Builds Upper Body Strength</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Improves Core Stability</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Enhances Muscle Definition</p>
+                                                    </li>
+
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 body-box m-auto my-3 border border-light p-4">
+                                    <div class="row">
+                                        <div class="title-name text-center border-bottom m-auto my-5 w-25">
+                                            <h2>Bench Dips</h2>
+                                        </div>
+                                        <div class="card-box2">
+                                            <div class="Exercise-Image ">
+                                                <img src="Images/Triceps Dips (using a chair).jfif" alt="">
+                                            </div>
+                                            <div class="Exercise-details">
+                                                <ul class="fs-4">
+                                                    <li>
+                                                        <p>15 REPS / 3 SETS</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Triceps Strength and Definition</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Upper Body Engagement</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Scalable Difficulty</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Helps with Push-Up and Pressing Progress</p>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 body-box m-auto my-3 border border-light p-4">
+                                    <div class="row">
+                                        <div class="title-name text-center border-bottom m-auto my-5 w-50">
+                                            <h2>Hindu Pushups</h2>
+                                        </div>
+                                        <div class="card-box">
+                                            <div class="Exercise-Image ">
+                                                <img src="Images/Hindu-Pushups.jpg" alt="">
+                                            </div>
+                                            <div class="Exercise-details">
+                                                <ul class="fs-4">
+                                                    <li>
+                                                        <p>15 REPS / 3 SETS</p>
+                                                    </li>
+                                                    <li>
+                                                        <p> Full Upper Body Strength</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Core Activation</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Spinal Mobility and Flexibility</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Combines Strength and Flexibility</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Cardiovascular Conditioning</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 body-box m-auto my-3 border border-light p-4">
+                                    <div class="row">
+                                        <div class="title-name text-center border-bottom m-auto my-5 w-50">
+                                            <h2>Lateral Raise</h2>
+                                        </div>
+                                        <div class="card-box2">
+                                            <div class="Exercise-Image ">
+                                                <img src="Images/latera-Raise Exercise.webp" alt="">
+                                            </div>
+                                            <div class="Exercise-details">
+                                                <ul class="fs-4">
+                                                    <li>
+                                                        <p>15 REPS / 3 SETS</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Isolates the Shoulder Muscles</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Improves Shoulder Strength</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Enhances Posture</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Shoulder Joint Health and Stability</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Enhances Aesthetic Appeal</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 body-box m-auto my-3 border border-light p-4">
+                                    <div class="row">
+                                        <div class="title-name text-center border-bottom m-auto my-5 w-25">
+                                            <h2>Wide Push-ups</h2>
+                                        </div>
+                                        <div class="card-box1">
+                                            <div class="Exercise-Image ">
+                                                <img src="Images/Wide Push-Ups.jfif" alt="">
+                                            </div>
+                                            <div class="Exercise-details">
+                                                <ul class="fs-4">
+                                                    <li>
+                                                        <p>15 REPS / 3 SETS</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Targets the Chest More</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Engages the Shoulders</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Works the Upper Body More</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Improves Push-Up Strength</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Increases Flexibility in the Chest and Shoulders</p>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="col-lg-10 body-box m-auto my-3 border border-light p-4">
+                                    <div class="row">
+                                        <div class="title-name text-center border-bottom m-auto my-5 w-50">
+                                            <h2>Over Head Weighted Crunches</h2>
+                                        </div>
+                                        <div class="card-box2">
+                                            <div class="Exercise-Image ">
+                                                <img src="Images/OverHead Weight Crunches.jpg" alt="">
+                                            </div>
+                                            <div class="Exercise-details">
+                                                <ul class="fs-4">
+                                                    <li>
+                                                        <p>15 REPS / 3 SETS</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Targets the Chest More</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Engages the Shoulders</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Works the Upper Body More</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Improves Push-Up Strength</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Increases Flexibility in the Chest and Shoulders</p>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" id="Pull">
+
+                    </div>
+                    <!-- Tuesday -->
+                    <div class="accordion-item mt-5 border border-top">
+                        <h2 class="accordion-header border border-bottom" id="headingTwo">
+                            <button class="accordion-button fs-2" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                Tuesday & Friday / Pull Exercise
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+
+                            <div class="accordion-body">
+                                <div class="col-lg-10 body-box m-auto my-3 border border-light p-4">
+                                    <div class="row">
+                                        <div class="title-name text-center border-bottom m-auto my-5 w-25">
+                                            <h2>Pullups</h2>
+                                        </div>
+                                        <div class="card-box">
+                                            <div class="Exercise-Image ">
+                                                <img src="Images/Pullups.webp" alt="">
+                                            </div>
+                                            <div class="Exercise-details">
+                                                <ul class="fs-4">
+                                                    <li>
+                                                        <p>Reps = 15 / # Sets</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Improves Grip Strength</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Scalable to Your Level</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Boosts Posture</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Enhances Athletic Performance</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Improves Mental Toughness</p>
+                                                    </li>
+
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 body-box m-auto my-3 border border-light p-4">
+                                    <div class="row">
+                                        <div class="title-name text-center border-bottom m-auto my-5 w-25">
+                                            <h2>Bent Over Row</h2>
+                                        </div>
+                                        <div class="card-box2">
+                                            <div class="Exercise-Image ">
+                                                <img src="Images/Bent-Over-Row.jpg" alt="">
+                                            </div>
+                                            <div class="Exercise-details">
+                                                <ul class="fs-4">
+                                                    <li>
+                                                        <p>15 REPS / 3 SETS</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Builds Upper and Middle Back Strength</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Enhances Pulling Strength</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Increases Muscle Mass and Definition</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Great for Strength Training or Hypertrophy</p>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 body-box m-auto my-3 border border-light p-4">
+                                    <div class="row">
+                                        <div class="title-name text-center border-bottom m-auto my-5 w-50">
+                                            <h2>One Hand Shrucks</h2>
+                                        </div>
+                                        <div class="card-box">
+                                            <div class="Exercise-Image ">
+                                                <img src="Images/One Hand Shrucks.webp" alt="">
+                                            </div>
+                                            <div class="Exercise-details">
+                                                <ul class="fs-4">
+                                                    <li>
+                                                        <p>15 REPS / 3 SETS</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Isolates the Upper Traps</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Improves Trap Development</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Increases Shoulder Stability</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Enhances Grip Strength</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Reduces Muscle Imbalances</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 body-box m-auto my-3 border border-light p-4">
+                                    <div class="row">
+                                        <div class="title-name text-center border-bottom m-auto my-5 w-25">
+                                            <h2>Hammer Curls</h2>
+                                        </div>
+                                        <div class="card-box2">
+                                            <div class="Exercise-Image ">
+                                                <img src="Images/Hammer Curls.webp" alt="">
+                                            </div>
+                                            <div class="Exercise-details">
+                                                <ul class="fs-4">
+                                                    <li>
+                                                        <p>15 REPS / 3 SETS</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Targets the Brachialis and Brachioradialis </p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Builds Overall Arm Size and Strength</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Improves Forearm Strength and Definition</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>More Functional than Regular Curls</p>
+                                                    </li>
+                                                    <li>
+                                                        <p> Reduces Stress on the Wrists</p>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 body-box m-auto my-3 border border-light p-4">
+                                    <div class="row">
+                                        <div class="title-name text-center border-bottom m-auto my-5 w-50">
+                                            <h2>Over Head Weighted Crunches</h2>
+                                        </div>
+                                        <div class="card-box">
+                                            <div class="Exercise-Image ">
+                                                <img src="Images/OverHead Weight Crunches.jpg" alt="">
+                                            </div>
+                                            <div class="Exercise-details">
+                                                <ul class="fs-4">
+                                                    <li>
+                                                        <p>15 REPS / 3 SETS</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Targets the Chest More</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Engages the Shoulders</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Works the Upper Body More</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Improves Push-Up Strength</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Increases Flexibility in the Chest and Shoulders</p>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" id="Leg">
+
+                    </div>
+                    <!-- WednesDay Exercise -->
+                    <div class="accordion-item mt-5 border border-top">
+                        <h2 class="accordion-header border border-bottom" id="headingThree">
+                            <button class="accordion-button fs-2" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                Wednesday & Saturday / Leg Exercise
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+
+                            <div class="accordion-body">
+                                <div class="col-lg-10 body-box   m-auto my-3 border border-light p-4">
+                                    <div class="row">
+                                        <div class="title-name text-center border-bottom m-auto my-5 w-50">
+                                            <h2>Body Weight Squat</h2>
+                                        </div>
+                                        <div class="card-box">
+                                            <div class="Exercise-Image ">
+                                                <img src="Images/Body Weight Squat.jpg" alt="">
+                                            </div>
+                                            <div class="Exercise-details">
+                                                <ul class="fs-4">
+                                                    <li>
+                                                        <p>Reps = 15 / # Sets</p>
+                                                    </li>
+                                                    <li>
+                                                        <p> Improves Lower Body Strength</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Enhances Mobility and Flexibility</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Improves Balance and Coordination</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Supports Joint Health</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Burns Calories and Aids Fat Loss</p>
+                                                    </li>
+
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 body-box m-auto my-3 border border-light p-4">
+                                    <div class="row">
+                                        <div class="title-name text-center border-bottom m-auto my-5 w-25">
+                                            <h2>Side Lunges</h2>
+                                        </div>
+                                        <div class="card-box2">
+                                            <div class="Exercise-Image ">
+                                                <img src="Images/Side Lunge.jpg" alt="">
+                                            </div>
+                                            <div class="Exercise-details">
+                                                <ul class="fs-4">
+                                                    <li>
+                                                        <p>15 REPS / 3 SETS</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Targets the Inner Thighs</p>
+                                                    </li>
+                                                    <li>
+                                                        <p> Improves Hip Mobility</p>
+                                                    </li>
+                                                    <li>
+                                                        <p> Works the Glutes and Quads</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Increases Stability in the Knees and Hips</p>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 body-box m-auto my-3 border border-light p-4">
+                                    <div class="row">
+                                        <div class="title-name text-center border-bottom m-auto my-5 w-50">
+                                            <h2>Bulgarian Split Squat</h2>
+                                        </div>
+                                        <div class="card-box">
+                                            <div class="Exercise-Image ">
+                                                <img src="Images/Bulgerian Split Squat.webp" alt="">
+                                            </div>
+                                            <div class="Exercise-details">
+                                                <ul class="fs-4">
+                                                    <li>
+                                                        <p>15 REPS / 3 SETS</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Unilateral Leg Training</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>targets Glutes, Quads, and Hamstrings</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Improves Balance and Stability</p>
+                                                    </li>
+                                                    <li>
+                                                        <p> Enhanced Range of Motion</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Increases Lower Body Strength and Power</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="container" id="About">
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container-fluid About-Contact text-white border-top">
+            <div class="row justify-content-evenly align-items-center">
+                <div class="col-lg-5 p-5  About">
+                    <div class="row">
+                        <div class="col-lg-12 ">
+                            <h1 class="text-center">About Us</h1>
+                        </div>
+                        <div class="col-lg-12  p-3">
+                            <h2>About WorkOut BLog:-</h2>
+                            <p class="fs-4">
+                                WorkOut Blog is a comprehensive fitness platform dedicated to helping individuals
+                                achieve
+                                their health and wellness goals.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 my-3  p-3">
+                            <h2 class="fs-5">Contact Info</h2>
+                            <p><span class="bi bi-telephone"></span><span class="ms-2">+91 9898523322</span></p>
+                            <p><span class="bi bi-envelope"></span><span class="ms-2">sprt@workout.com</span></p>
+                            <p><span class="bi bi-person-vcard"></span><span class="ms-2">st.2,Gk Road,Jasdan.</span>
+                            </p>
+                        </div>
+
+                        <div class="col-lg-6 my-3  p-3">
+                            <h2 class="fs-5">-:Send thought:-</h2>
+                            <input type="text" placeholder="Name" class="form-control my-2">
+                            <textarea name="message" id="" placeholder="message" class="form-control my-2"></textarea>
+                            <button type="submit" class="btn btn-danger">Submit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="verticle-row col-lg-1">
+                    <div class="line-row"></div>
+                </div>
+                <div class="col-lg-5 p-5 Contact " id="Contact">
+                    <form>
+                        <h1 class=" text-center">Contact Us</h1>
+                        <div class="row mt-5">
+                            <div class="col-lg-12">
+                                <input type="text" name="Full name" id="fName" placeholder="Full Name"
+                                    class="form-control my-2">
+                            </div>
+                            <div class="col-lg-12">
+                                <input type="email" name="email" id="Email" placeholder="Email"
+                                    class="form-control my-2">
+                            </div>
+                            <div class="col-lg-12">
+                                <input type="number" name="Contact" id="Contact" placeholder="Mobile Number"
+                                    class="form-control my-2">
+                            </div>
+                            <div class="col-lg-12">
+                                <textarea name="Address" id="Address" rows="5" placeholder="Address"
+                                    class="form-control my-2"></textarea>
+                            </div>
+                            <div class="col-lg-12">
+                                <button type="submit" class="btn btn-danger">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="fs-4 text-center text-white">&copy; WorkOut Blog. All Rights Reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var myAccordion = new bootstrap.Collapse(document.getElementById('collapseOne'), {
+                toggle: false
+            });
+        });
+    </script>
+
+</body>
+
+</html>
